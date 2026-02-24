@@ -126,8 +126,10 @@ body {
 @media (max-width: 768px) {
 
   .products {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    padding:15px;
+}
 
   .header {
     flex-direction: column;
@@ -223,4 +225,5 @@ body {
 
 .whatsapp-btn:hover {
   background: #1ebe5d;
+
 }   
