@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mango Hub | Nandi Farms</title>
+  <link rel="stylesheet" href="4.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>🥭 Mango Hub</h1>
+  <div class="cart">
+    🛒
+    <span class="cart-badge" id="cart-count">0</span>
+  </div>
+</header>
+
+<section class="hero">
+  <h2 id="banner-text">Fresh Mangoes from Nandi Farms 🥭</h2>
+  <p>Direct from farmers to your home</p>
+</section>
+
+<section class="products" id="product-list">
+</section>
+   
+<section class="cart-section">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+
+  <p>Delivery Charges: ₹<span id="delivery">150</span></p>
+
+  <h3>Grand Total: ₹<span id="total">0</span></h3>
+
+  <button class="pay-btn" id="orderNowBtn">Order Now</button>
+</section>
+
+<footer class="footer">
+  <p>🥭 100% Fresh Mangoes from Nandi Farms</p>
+  <p>📞 Contact: 8688539490</p>
+  <p>📍 ULAVAPADU , Andhra Pradesh, India</p>
+</footer>
+
+<section id="checkout" class="checkout hidden">
+  <h2>Checkout</h2>
+
+  <label>Full Name</label>
+  <input type="text" id="name" placeholder="Enter your name">
+
+  <label>Mobile Number</label>
+  <input type="tel" id="phone" placeholder="Enter mobile number">
+
+  <label>Delivery Address</label>
+  <textarea id="address" placeholder="Enter full address"></textarea>
+
+  <label>Payment Method</label>
+  <select id="payment">
+    <option value="COD">Cash on Delivery</option>
+    <option value="UPI">UPI</option>
+  </select>
+
+  <button id="placeOrderBtn">Place Order</button>
+</section>
+
+<script src="4.js"></script>
+</body>
+</html>
